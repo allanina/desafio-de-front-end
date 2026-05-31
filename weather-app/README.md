@@ -66,6 +66,13 @@ src/
 └── tests/
 ```
 
+## Accessibility
+
+- Keyboard navigation support
+- Semantic HTML
+- Accessible form controls
+- Screen reader friendly labels
+
 ## API
 
 This project uses WeatherAPI to retrieve weather information.
