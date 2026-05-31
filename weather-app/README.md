@@ -26,6 +26,10 @@ The application allows users to browse a predefined list of cities and view deta
 
 ---
 
+The layout was implemented responsively and tested across mobile, tablet and desktop widths.
+
+---
+
 ## Test Coverage
 
 Current test coverage:
