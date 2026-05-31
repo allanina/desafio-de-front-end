@@ -6,7 +6,7 @@ The application allows users to browse a predefined list of cities and view deta
 
 A live version of the application is available at:
 
-https://desafio-de-front-end-eight.vercel.app/
+https://desafio-de-front-end-teal.vercel.app/
 
 ---
 
