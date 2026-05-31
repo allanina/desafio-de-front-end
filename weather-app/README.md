@@ -4,6 +4,8 @@ A responsive weather application built with React, TypeScript and WeatherAPI.
 
 The application allows users to browse a predefined list of cities and view detailed weather information, including current conditions, temperatures throughout the day and additional weather metrics.
 
+A live version of this project can be seen at https://desafio-de-front-end-eight.vercel.app/
+
 ---
 
 ## Preview
