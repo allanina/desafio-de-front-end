@@ -116,7 +116,7 @@ npm install
 Create a `.env` file:
 
 ```env
-VITE_WEATHER_VITE_WEATHER_API_KEY=your_api_key
+VITE_WEATHER_API_KEY=your_api_key
 ```
 
 You can obtain an API key at: https://www.weatherapi.com/ and  to the `.env` file. See `.emv-example` for example.

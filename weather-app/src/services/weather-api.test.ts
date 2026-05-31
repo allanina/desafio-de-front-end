@@ -8,7 +8,7 @@ describe("getWeatherByCity", () => {
   });
 
   it("should throw when api key is missing", async () => {
-    vi.stubEnv("VITE_WEATHER_VITE_WEATHER_API_KEY", "");
+    vi.stubEnv("VITE_WEATHER_API_KEY", "");
 
     await expect(getWeatherByCity("London")).rejects.toThrow(
       "Missing WeatherAPI key",
@@ -16,7 +16,7 @@ describe("getWeatherByCity", () => {
   });
 
   it("should call weather api with correct url", async () => {
-    vi.stubEnv("VITE_WEATHER_VITE_WEATHER_API_KEY", "fake-api-key");
+    vi.stubEnv("VITE_WEATHER_API_KEY", "fake-api-key");
 
     const fetchMock = vi.fn().mockResolvedValue({
       ok: true,
@@ -45,7 +45,7 @@ describe("getWeatherByCity", () => {
   });
 
   it("should return weather data", async () => {
-    vi.stubEnv("VITE_WEATHER_VITE_WEATHER_API_KEY", "fake-api-key");
+    vi.stubEnv("VITE_WEATHER_API_KEY", "fake-api-key");
 
     const responseData = {
       location: {
@@ -73,7 +73,7 @@ describe("getWeatherByCity", () => {
   });
 
   it("should throw when api returns error", async () => {
-    vi.stubEnv("VITE_WEATHER_VITE_WEATHER_API_KEY", "fake-api-key");
+    vi.stubEnv("VITE_WEATHER_API_KEY", "fake-api-key");
 
     vi.stubGlobal(
       "fetch",
