@@ -113,9 +113,7 @@ Create a `.env` file:
 VITE_WEATHER_VITE_WEATHER_API_KEY=your_api_key
 ```
 
-You can obtain an API key at:
-
-https://www.weatherapi.com/
+You can obtain an API key at: https://www.weatherapi.com/ and  to the `.env` file. See `.emv-example` for example.
 
 ---
 
@@ -189,6 +187,16 @@ The project follows accessibility best practices:
 - Keyboard navigation
 - Screen-reader friendly labels
 - Accessible navigation links
+
+---
+
+## Architecture Decisions
+
+- React Query for server state management
+- Component-based SVG icons
+- Responsive design based on Figma specifications
+- Utility functions isolated and tested
+- Reusable weather icon mapping component
 
 ---
 
