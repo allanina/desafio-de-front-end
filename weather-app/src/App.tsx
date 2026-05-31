@@ -1,10 +1,12 @@
-import Home from './pages/Home/Home'
+import { Route, Routes } from 'react-router-dom'
+import { Home } from '../src/pages/Home/Home'
+import { CityDetails } from '../src/pages/CityDetails/CityDetails'
 
-function App() {
-
+export function App() {
   return (
-    <Home/>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/city/:cityId" element={<CityDetails />} />
+    </Routes>
   )
 }
-
-export default App
